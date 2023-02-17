@@ -61,13 +61,11 @@ int *calc(char *arr, int nl, int nc)
                         result[nlInterno * nc + ncInterno] = -1;
                         continue;
                     }
-
                     result[nlInterno * nc + ncInterno]++;
                 }
             }
         }
     }
-
     return result;
 }
 
