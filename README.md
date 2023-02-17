@@ -29,7 +29,7 @@ Agradecemos às seguintes pessoas que contribuíram para esta disciplina:
         </td>
         <td align="center">
           <a href="https://github.com/ViniciusBastoss">
-            <img width=100 src="#"/><br>
+            <img width=100 src="https://avatars.githubusercontent.com/u/117671262?v=4"/><br>
             <sub>
               <b>Vinícius Bueno</b>
             </sub>
@@ -37,7 +37,7 @@ Agradecemos às seguintes pessoas que contribuíram para esta disciplina:
         </td>
         <td align="center">
           <a href="https://github.com/gustavo1902">
-            <img width=100 src="#"/><br>
+            <img width=100 src="https://avatars.githubusercontent.com/u/101591580?v=4"/><br>
             <sub>
               <b>Gustavo Morais</b>
             </sub>
