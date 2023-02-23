@@ -1,19 +1,25 @@
-- Explicação do problema de Expressões
+# Explicação do problema de Expressões
 
-Seja E_d uma expressão válida (com parênteses balanceados), onde o índice subscrito d indica a profundidade, ou seja, o número de parênteses aninhados na expressão E, conforme descrito no enunciado do problema.
+Seja E_d uma expressão válida (com parênteses balanceados), onde o índice subscrito d indica a profundidade, ou seja, 
+o número de parênteses aninhados na expressão E, conforme descrito no enunciado do problema.
 
-Seja n o número de pares de parênteses em E. Para n \geq 1, o primeiro símbolo de E tem que ser um um abre parênteses e tem que haver algum fecha parênteses em sequência na mesma expressão. Dentro desses dois parênteses pode ter uma expressão A válida e profundidade d-1 e fora desses dois parênteses pode ter outra expressão válida B com profundidade d, uma vez que B não está entre parênteses como A, assim:
+Seja n o número de pares de parênteses em E. Para n \geq 1, o primeiro símbolo de E tem que ser um um abre parênteses 
+e tem que haver algum fecha parênteses em sequência na mesma expressão. Dentro desses dois parênteses pode ter uma expressão 
+A válida e profundidade d-1 e fora desses dois parênteses pode ter outra expressão válida B com profundidade d, uma 
+vez que B não está entre parênteses como A, assim:
 
-E_d = (A_{d-1})B_d
+    E_d = (A_{d-1})B_d
 
-Portanto, a relação de recorrência C(n,d) para contar o número de expressões válidas com n pares de parênteses e profundidade d (baseada na expressão do número de Catalan) é:
+Portanto, a relação de recorrência C(n,d) para contar o número de expressões válidas com n pares de parênteses e profundidade 
+d (baseada na expressão do número de Catalan) é:
 
-C(n,d) = \begin{cases}
-1, \text{ se } n = 0 \text{ ou } d = 1 \\
-\sum_{k=0}^{n-1} C(k,d-1) * C(n-k-1,d)
-\end{cases}
+    C(n,d) = \begin{cases}
+    1, \text{ se } n = 0 \text{ ou } d = 1 \\
+    \sum_{k=0}^{n-1} C(k,d-1) * C(n-k-1,d)
+    \end{cases}
 
-Para testar se a relação de recorrência para contagem das expressões balanceadas com n pares de parenteses e profundidade d está certa, pode-se usar o seguinte algoritmo que gera (recursivamente) as expressões válidas:
+Para testar se a relação de recorrência para contagem das expressões balanceadas com n pares de parenteses e profundidade d 
+está certa, pode-se usar o seguinte algoritmo que gera (recursivamente) as expressões válidas:
 
 #include 
 #define MAX_SIZE 100
