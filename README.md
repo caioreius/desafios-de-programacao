@@ -6,8 +6,6 @@
 
   <p align="justify"> "O objetivo dessa disciplina era formar equipes para participar de competições na área de programação. Nesse espaço, tínhamos o objetivo de encontrar informações e material de estudo para desenvolver habilidades em resolver problemas de programação." </p
 
-*******
-
 ## 🤝 Colaboradores
   
   
