@@ -1,7 +1,5 @@
 # Desafios de Programação - [DCE769] (Eletiva) (08) - 2022/2
 
-*******
-
   <p align="justify"> Repositório para colocar alguns exemplos de códigos da Disciplina de "Desafios de Programação" da Universidade Federal de Alfenas. </p>
 
   <p align="justify"> "O objetivo dessa disciplina era formar equipes para participar de competições na área de programação. Nesse espaço, tínhamos o objetivo de encontrar informações e material de estudo para desenvolver habilidades em resolver problemas de programação." </p
